@@ -85,6 +85,10 @@ public class MainActivity extends AppCompatActivity {
      * Outro layout é o 'CordenationLayout', ele tem a mesma função do FrameLayout, porém é uma evolução, já que tem mais
      * opções de configurações (+ recursos).
      *
+     * Outro layout é o GridLayout, para configurar o GridLayout basta ir no arquivo arctivity_main.xml na aba de code
+     * e substitui a tag do 'ConstraintLayout' por 'GridLayout'. Objetivo: montar layout diretamente utilizando a interface.
+     * Pode usar um grid de imagem uma do lado da outra, por exemplo.
+     *
      *
      *
      *
