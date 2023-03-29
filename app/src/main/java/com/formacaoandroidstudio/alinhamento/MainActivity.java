@@ -54,6 +54,16 @@ public class MainActivity extends AppCompatActivity {
      * É possível alinhar componente dentro de componente, tantos com as funcionalidades ditas acima quanto com conexoes
      * sendo puxadas por você.
      *
+     * Existem outros tipos de layout, no caso, nós estamos usando o 'ConstraintLayout' (por padrão é criado esse layout),
+     * através do 'Component Tree' é possível visualizar a árvore de componentes do seu projeto.
+     *
+     * Outro layout é o 'RelativeLayout'. Para usar esse tipo de layout basta ir no arquivo arctivity_main.xml na aba de code
+     * e substitui a tag do 'ConstraintLayout' por 'RelativeLayout'. O layout relativo permite que você alinhe os componentes um baseado no outro.
+     *
+     * Outro layout é o "LinearLayout" que pode ter duas configurações, são elas, horizontal ou vertical. Esse Layout faz
+     * referência a linha, tanto na horizontal, quanto na vertical. A orientação pode ser definida no 'atributtes' na
+     * propriedade 'orientation' e pode ser tanto na horizonta, quanto na vertical.
+     *
      *
      * */
 }
