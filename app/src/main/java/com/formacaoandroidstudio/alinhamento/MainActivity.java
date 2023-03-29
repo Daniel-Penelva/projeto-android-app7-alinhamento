@@ -64,6 +64,29 @@ public class MainActivity extends AppCompatActivity {
      * referência a linha, tanto na horizontal, quanto na vertical. A orientação pode ser definida no 'atributtes' na
      * propriedade 'orientation' e pode ser tanto na horizonta, quanto na vertical.
      *
+     * Dica: É possível converter do 'LinearLayout' para o 'ConstraintLinear' e entre outros layouts. Basta ir no arquivo
+     * 'activity_main.xml' na aba 'Component Tree' e com o botão direito do mouse busque a opção 'Convert view...' e
+     * escolhe a opção 'ConstraintLayout' e aplica (apply).
+     *
+     * No caso, vamos ver o layout 'FrameLayout'. Esse Layout é um componente que permite que coloque camadas um sobre o
+     * outro, ou seja, pode colocar componentes um sobre o outro. IMPORTANTE: Para cada camada é preciso colocar um
+     * 'Frame Layout' (basta ir na Palette e pesquisar por FrameLayout e arrastar para o design). Por exemplo:
+     *
+     *     FrameLayout
+     *     textView       (DICA: Pode alinhar esses componentes usando o layout_gravity)
+     *     FrameLayout
+     *     imagem_2
+     *     FrameLayout
+     *     imagem_3
+     *
+     * A estrutura feita acima é possível visualizar no 'Component Tree', que é tipo uma árvore dos componentes que estão
+     * sendo utilizados.
+     *
+     * Outro layout é o 'CordenationLayout', ele tem a mesma função do FrameLayout, porém é uma evolução, já que tem mais
+     * opções de configurações (+ recursos).
+     *
+     *
+     *
      *
      * */
 }
